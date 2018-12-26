@@ -1,0 +1,328 @@
+html{
+
+	
+
+}
+
+body {
+	background-color:f1f1f1;
+	float:center;
+	height:100%;
+	padding: 0;
+	margin: 0 auto; 
+	
+}
+
+flex-container{
+	width:100%;
+	margin: px;
+	
+	line-height:150%;
+	color: black;
+
+	text-align: left; /* IE5.x */
+	
+}
+
+header {
+	
+	height:10%;
+	background-color:#2a2a2a;
+	color:white;
+	margin-bottom:5px;
+	
+	font-family: georgia;
+}
+
+nav {
+	
+	background-color:2a2a2a;
+	float:left;
+	margin-left:5px;
+	 height:78%;
+	
+	width:15%;
+	
+	
+	border-radius: 5px 5px 5px 5px; 
+	
+}
+
+
+main{
+	float:left;
+	
+	height:79%;
+
+
+	width:80%;
+	
+	background-color:f1f1f1;
+	margin-bottom:5px;
+	margin-top:5px;
+
+}
+
+footer{
+	height:3%;
+	background-color:2a2a2a;
+	text-align:center;
+	padding:0.5em;
+	color:white;
+	clear:left;
+	}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #2a2a2a;
+	
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.menu-item-selected{
+	 background-color: #006070;
+}
+
+ì
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #006070;
+    color: white;
+	
+}
+
+.delForm{
+	width:15%;
+	display: inline-block;
+	padding: 12px 20px;
+}
+
+#showPren{
+	 padding: 12px 20px;
+}
+label{
+	
+   padding: 14px 20px;	
+}
+
+input[type=text],input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=number]{
+    width: 55%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	display: inline-block;
+	
+}
+
+#resSubmit{
+	
+	 width: 15%;
+}
+
+#delBut {
+	 width: 15%;
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	display: inline-block;
+  
+   
+}
+
+#selectItems{
+	height:24px;
+	 border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]:hover{
+    background-color: #45a049;
+}
+fieldset{
+	border:0px;
+}
+
+.titleHead{
+	width:78%;
+	padding-left:2%;
+	float:left;
+	height:100%;
+}
+
+.authenticationHead{
+	
+			
+	padding-top:1%;
+	padding-bottom:1%;
+
+	width:20%;
+	height:100%;
+	float:right;
+	text-align: left;
+	vertical-align: middle;
+}
+
+#resForm{
+width:80%;	
+display: inline-block;
+  float: left;
+}
+
+.registration,.login,.preview,.itemsPreview.resDiv{
+
+	padding-top:2%;
+	padding-left:5%;	
+	
+}
+.notActive{
+	
+	text-align:center;
+	font-size:24;
+	background-color:red;
+	opacity:0.8; 
+	color:white;
+	padding-top:2%;
+	padding-left:5%;
+	width:100%;
+	height:5%;	
+}
+
+.divErrMesg{
+		text-align:center;
+	font-size:24;
+	background-color:red;
+	opacity:0.8; 
+	color:white;
+	padding-top:2%;
+	padding-left:5%;
+	width:95%;
+	height:5%;
+	
+}
+
+
+
+
+.linkOnPage{
+		color: #006070;		
+		text-decoration: none; 
+}
+.pageTitle{
+	
+	padding-left:5%;
+	color: #006070;		
+	font-size:24px;
+	padding-top:2%;
+}
+
+.logout-link,.login-link{
+	text-decoration: none;
+	
+	color: white;
+}
+
+.logout-link:hover,.login-link:hover {
+ 
+   color:#006070;
+}
+.itemsPreview{
+	
+    width: 100%;
+    padding-left: 5%;
+  
+   
+}
+
+.showReservation{
+			text-align:center;
+	font-size:24;
+	border-style: solid;
+	border-color: green;
+	background-color: rgba(0, 255, 0, 0.2);
+	color:white;
+	padding-top:2%;
+	padding-bottom:2%;
+	padding-left:5%;
+	width:95%;
+	height:5%;
+}
+
+
+
+#logoImg{
+		height:80%;
+		float:left;
+		
+		text-align: left;
+	padding-top:1%;
+
+	
+}
+#logoImg:hover{
+	opacity: 0.7;
+}
+
+#tableItemsPreviw{
+	width:100%;
+	 margin: 8px 0;
+   
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#tableHead{
+	 color:#006070;
+}
+
+#loggedImg{
+height:70%;
+float: left;
+opacity: 1;
+display: inline;
+padding-top:1%
+
+}
+#loggedImg:hover{
+	opacity: 0.5;
+}
+}
