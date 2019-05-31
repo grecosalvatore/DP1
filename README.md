@@ -1,3 +1,3 @@
 # DP1
 
-Distributed Programming 1
+EXAM POLITO - Distributed Programming 1
